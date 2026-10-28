@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Page</title>
+    <style>
+        h1{
+             text-align: center;
+             width: 92vw;
+             font-size: 45px;
+             color: rgb(44, 120, 134);
+             font-weight: bolder;
+             
+             
+
+        }
+        marquee{
+            width: 37vw;
+            border: 10px dashed rgb(44, 120, 134);
+        }
+        .container {
+            width: 325px;
+            height: 495px;
+            background-color: rgb(44, 120, 134);
+            margin-left: 33vw;
+            border-radius: 10px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+
+        .image {
+            width: 325px;
+            
+        }
+
+        .student {
+            text-align: center;
+        }
+
+        .name {
+            color: white;
+            border: 2px solid black;
+            background-color: black;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .photo {
+            width: 120px;
+            height: 125px;
+            border: 2px solid black;
+            display: flex;
+        }
+
+        .photos {
+            margin: 10px;
+            display: flex;
+            gap: 8px;
+
+        }
+
+        .info {
+            font-size: 18px;
+            padding-top: 10px;
+        }
+
+        .qr {
+            width: 120px;
+            margin: -6px;
+            padding: 0 17px 11px;
+        }
+
+       .qr_code{
+        display: flex;
+        gap: 20px;
+       }
+       .bar{
+        text-align: center;
+        font-size: 8px;
+       }
+
+        .barqr {
+            width: 125px;
+            height: 40px;
+            display: flex;
+        }
+        p{
+            font-size: 10px;
+            padding: 0px 0px 0px 180px;
+            margin: 1px;
+        }
+
+        .footer {
+            border: 1px solid black;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 6px;
+            font-size: 11px;
+        }
+    </style>
+</head>
+
+<Body>
+    <h1>
+   <marquee scrollamount="25" behavior="" direction="right">GLA Id Card</marquee>
+    </h1>
+    <div class="container">
+        
+        <div class="box">
+            <div class="logo">
+                <img class="image" src="image.png" alt="">
+            </div>
+            <div class="student">
+                Student ID Card
+            </div>
+            <div class="name">
+                Mohammad Ibran
+            </div>
+            <div class="photos">
+                <img class="photo" src="photo.png" alt=""> <br>
+                <div class="info">
+                    Course / Branch: <br>
+                    B.Tech. - CS <br>
+                    Date of Birth:<br>
+                    16 Nov,2008<br>
+                    <b>Validity: 2025-2029</b>
+                </div>
+            </div>
+            <div class="qr_code">
+                <img class="qr"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9eYGCev1WW9NX5ZxFWqxARKk14wRi6Nam8sKclDvBA&s=10"
+                    alt="">
+                    <div class="bar">
+                        <img class="barqr"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpATgHGrWMTR89srhBDUFbs1nbB6RkVMI9A2kHJtdATQ&s=10"
+                        alt=""><br>
+                        <b>25BCS1870</b>
+                    </div>
+            </div>
+            <p><b>Dean-Academic Affairs</b></p>
+            <div class="footer">
+                WWW.gla.ac.in
+            </div>
+
+
+
+
+
+        </div>
+</Body>
+</html>
